@@ -6,8 +6,8 @@ paginate: 2 #6
 comments: true
 paginate_path: "/page/:num"
 
-baseurl: "/nandomoreira-jekyll-theme" # change to empty string ""
-domain_name: nandomoreira.me
+baseurl: "" #"/nandomoreira-jekyll-theme" # change to empty string ""
+# domain_name: nandomoreira.me
 google_analytics: UA-52446115-1
 
 source:      source
@@ -22,13 +22,13 @@ title: Fernando Moreira | Desenvolvimento Web e tudo mais..
 description: "Desenvolvedor Front-end/Wordpress, Design Responsivo, HTML5, CSS3 e JavaScript"
 meta_description: "Desenvolvedor Front-end/Wordpress, Design Responsivo, HTML5, CSS3 e JavaScript"
 meta_keywords: "site, website, loja virtual, lojas virtuais, e-commerce, wordpress, frontend, front-end, html5, css3, javascript, jquery, seo, otimizacao, performance"
-url: http://nandomoreira.me
-production_url: http://nandomoreira.me
-repo: https://github.com/nandomoreirame/nandomoreira-jekyll-theme
-disqus_shortname: "fernandomoreira"
+url: http://cgabilla.github.io
+production_url: http://cgabilla.github.io
+repo: https://github.com/cgabilla/cgabilla.github.io.git
+disqus_shortname: "cgabilla"
 rss_path: source/
 author:
-  name      : Fernando Moreira
+  name      : Cyrus Gabilla
   image     : /assets/images/author.jpg
   email     : nandomoreira.me@gmail.com
   url       : http://nandomoreira.me
@@ -47,7 +47,7 @@ thought:
 # Plugin: jekyll-assets
 assets:
   dirname: /assets
-  baseurl: /nandomoreira-jekyll-theme/assets/ # change to /assets/
+  baseurl:  /assets/ #/nandomoreira-jekyll-theme/assets/ # change to /assets/
   sources:
     - assets/images
     - assets/fonts
